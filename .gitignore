@@ -1,8 +1,8 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
-build/
-dist/
+/build/
+/dist/
 wheels/
 *.egg-info
 
@@ -11,8 +11,8 @@ wheels/
 
 # Node.js
 node_modules/
-frontend/dist/
 frontend/.vite/
+*.tsbuildinfo
 
 # Docker volumes (ローカルデータ)
 docker/data/
